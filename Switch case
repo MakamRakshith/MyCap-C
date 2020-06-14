@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main()
+{
+	int choice;
+	printf("Menu\n1. Dosa Rs.50\n2. Poori Rs.30\n3. Chapathi Rs.45\n4. Pongal Rs.40\n5. Idly Rs.25\n");
+	printf("Enter you choice: ");
+  //Choice input
+	scanf("%d",&choice);
+	switch(choice)
+	{
+		case 1: printf("You ordered:\n");
+				printf("Food Item: Dosa\n");
+				printf("Price: Rs.50");
+				break;
+		case 2: printf("You ordered:\n");
+				printf("Food Item: Poori\n");
+				printf("Price: Rs.30");
+				break;
+		case 3: printf("You ordered:\n");
+				printf("Food Item: Chapathi\n");
+				printf("Price: Rs.45");
+				break;
+		case 4: printf("You ordered:\n");
+				printf("Food Item: Pongal\n");
+				printf("Price: Rs.40");
+				break;
+		case 5: printf("You ordered:\n");
+				printf("Food Item: Idly\n");
+				printf("Price: Rs.25");
+				break;
+		default: printf("You entered wrong choice, Please enter correct choice.");
+		break;
+	}
+}
